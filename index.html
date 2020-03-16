@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Planner</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- This is for the heading -->
+    <div class="container">
+        <div class="card" id="heading">
+            <div class="card-body">
+                <h1 class="display-4 text-center p-4">Today's Plans</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is where the time-slots will go -->
+    <div class="container mt-5" id="schedule"></div>
+    
+    <!-- This button will save the contents of all text areas-->
+    <div id="button">
+        <button type="button" class="btn btn-info btn-lg mt-5" id="save-changes">Save Changes</button>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
